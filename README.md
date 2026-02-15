@@ -1,6 +1,6 @@
 # PotSim: A Large-Scale Simulated Dataset for Benchmarking AI Techniques on Potato Crop
 
-This repository contains the official implementation associated with this paper. The corresponding dataset is publicly available [here](https://doi.org/10.7910/DVN/GQMDOV).
+This repository contains the official implementation associated with this paper. 
 
 ## Description:
 
