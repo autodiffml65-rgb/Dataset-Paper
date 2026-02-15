@@ -1,0 +1,11 @@
+**/__pycache__/
+**/.trash
+**/.DS_Store
+*.parquet
+!data/sample.parquet
+!data/train_split.parquet
+!data/val_split.parquet
+!data/test_split.parquet
+temp_*.ipynb
+dump.py
+README_template.md

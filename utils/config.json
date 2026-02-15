@@ -1,0 +1,356 @@
+{
+    "NTotL1":{
+        "target": "NTotL1",
+        "features": ["DayAfterPlant", "NApp", "Rain", "SolarRad", "AirTempC"],
+        "models": {
+            "Linear Regression": {
+                "class_name": "LinearRegression",
+                "params": {
+                    "input_dim": 5
+                }
+            },
+            "Multi-Layered Perceptron": {
+                "class_name": "MLP",
+                "params": {
+                    "input_dim": 5,
+                    "hidden_size": 256,
+                    "num_layers": 2,
+                    "dropout": 0.2
+                }
+            },
+            "1-D Convolutional Neural Network": {
+                "class_name": "CNN1D",
+                "params": {
+                    "input_dim": 5,
+                    "hidden_size": 128,
+                    "kernel_size": 3,
+                    "padding": 1,
+                    "dropout": 0.2
+                }
+            },
+            "Temporal Convolutional Network": {
+                "class_name": "TCN",
+                "params": {
+                    "input_dim": 5,
+                    "num_channels": [128, 64, 32, 16, 8],
+                    "kernel_size": 5,
+                    "dropout": 0.2
+                }
+            },
+            "Long Short-Term Memory": {
+                "class_name": "LSTM",
+                "params": {
+                    "input_dim": 5,
+                    "hidden_size": 128,
+                    "num_layers": 2,
+                    "dropout": 0.2
+                }
+            },
+            "Transformer": {
+                "class_name": "EncoderOnlyTransformer",
+                "params": {
+                    "input_dim": 5,
+                    "nhead": 4,
+                    "num_layers": 2,
+                    "d_model": 128,
+                    "dropout": 0.2
+                }
+            }
+        }
+    },
+    "NTotL2":{
+        "target": "NTotL2",
+        "features": ["DayAfterPlant", "NApp", "Rain", "SolarRad", "AirTempC"],
+        "models": {
+            "Linear Regression": {
+                "class_name": "LinearRegression",
+                "params": {
+                    "input_dim": 5
+                }
+            },
+            "Multi-Layered Perceptron": {
+                "class_name": "MLP",
+                "params": {
+                    "input_dim": 5,
+                    "hidden_size": 256,
+                    "num_layers": 2,
+                    "dropout": 0.2
+                }
+            },
+            "1-D Convolutional Neural Network": {
+                "class_name": "CNN1D",
+                "params": {
+                    "input_dim": 5,
+                    "hidden_size": 128,
+                    "kernel_size": 3,
+                    "padding": 1,
+                    "dropout": 0.2
+                }
+            },
+            "Temporal Convolutional Network": {
+                "class_name": "TCN",
+                "params": {
+                    "input_dim": 5,
+                    "num_channels": [128, 64, 32, 16, 8],
+                    "kernel_size": 5,
+                    "dropout": 0.2
+                }
+            },
+            "Long Short-Term Memory": {
+                "class_name": "LSTM",
+                "params": {
+                    "input_dim": 5,
+                    "hidden_size": 128,
+                    "num_layers": 2,
+                    "dropout": 0.2
+                }
+            },
+            "Transformer": {
+                "class_name": "EncoderOnlyTransformer",
+                "params": {
+                    "input_dim": 5,
+                    "nhead": 4,
+                    "num_layers": 2,
+                    "d_model": 128,
+                    "dropout": 0.2
+                }
+            }
+        }
+    },
+    "SWatL1":{
+        "target": "SWatL1",
+        "features": ["DayAfterPlant","IrrgThresh", "NLeach", "Irrg", "Rain"],
+        "models": {
+            "Linear Regression": {
+                "class_name": "LinearRegression",
+                "params": {
+                    "input_dim": 5
+                }
+            },
+            "Multi-Layered Perceptron": {
+                "class_name": "MLP",
+                "params": {
+                    "input_dim": 5,
+                    "hidden_size": 128,
+                    "num_layers": 2,
+                    "dropout": 0.2
+                }
+            },
+            "1-D Convolutional Neural Network": {
+                "class_name": "CNN1D",
+                "params": {
+                    "input_dim": 5,
+                    "hidden_size": 64,
+                    "kernel_size": 3,
+                    "padding": 1,
+                    "dropout": 0.2
+                }
+            },
+            "Temporal Convolutional Network": {
+                "class_name": "TCN",
+                "params": {
+                    "input_dim": 5,
+                    "num_channels": [64, 32, 16, 8],
+                    "kernel_size": 3,
+                    "dropout": 0.2
+                }
+            },
+            "Long Short-Term Memory": {
+                "class_name": "LSTM",
+                "params": {
+                    "input_dim": 5,
+                    "hidden_size": 64,
+                    "num_layers": 2,
+                    "dropout": 0.2
+                }
+            },
+            "Transformer": {
+                "class_name": "EncoderOnlyTransformer",
+                "params": {
+                    "input_dim": 5,
+                    "nhead": 2,
+                    "num_layers": 2,
+                    "d_model": 64,
+                    "dropout": 0.2
+                }
+            }
+        }
+    },
+    "SWatL2":{
+        "target": "SWatL2",
+        "features": ["DayAfterPlant","IrrgThresh", "NLeach", "Irrg", "Rain"],
+        "models": {
+            "Linear Regression": {
+                "class_name": "LinearRegression",
+                "params": {
+                    "input_dim": 5
+                }
+            },
+            "Multi-Layered Perceptron": {
+                "class_name": "MLP",
+                "params": {
+                    "input_dim": 5,
+                    "hidden_size": 128,
+                    "num_layers": 2,
+                    "dropout": 0.2
+                }
+            },
+            "1-D Convolutional Neural Network": {
+                "class_name": "CNN1D",
+                "params": {
+                    "input_dim": 5,
+                    "hidden_size": 64,
+                    "kernel_size": 3,
+                    "padding": 1,
+                    "dropout": 0.2
+                }
+            },
+            "Temporal Convolutional Network": {
+                "class_name": "TCN",
+                "params": {
+                    "input_dim": 5,
+                    "num_channels": [64, 32, 16, 8],
+                    "kernel_size": 3,
+                    "dropout": 0.2
+                }
+            },
+            "Long Short-Term Memory": {
+                "class_name": "LSTM",
+                "params": {
+                    "input_dim": 5,
+                    "hidden_size": 64,
+                    "num_layers": 2,
+                    "dropout": 0.2
+                }
+            },
+            "Transformer": {
+                "class_name": "EncoderOnlyTransformer",
+                "params": {
+                    "input_dim": 5,
+                    "nhead": 2,
+                    "num_layers": 2,
+                    "d_model": 64,
+                    "dropout": 0.2
+                }
+            }
+        }
+    },
+    "NLeach":{
+        "target": "NLeach",
+        "features": ["NTotL1", "NTotL2", "Rain", "SolarRad", "AirTempC"],
+        "models": {
+            "Linear Regression": {
+                "class_name": "LinearRegression",
+                "params": {
+                    "input_dim": 5
+                }
+            },
+            "Multi-Layered Perceptron": {
+                "class_name": "MLP",
+                "params": {
+                    "input_dim": 5,
+                    "hidden_size": 128,
+                    "num_layers": 2,
+                    "dropout": 0.2
+                }
+            },
+            "1-D Convolutional Neural Network": {
+                "class_name": "CNN1D",
+                "params": {
+                    "input_dim": 5,
+                    "hidden_size": 64,
+                    "kernel_size": 3,
+                    "padding": 1,
+                    "dropout": 0.2
+                }
+            },
+            "Temporal Convolutional Network": {
+                "class_name": "TCN",
+                "params": {
+                    "input_dim": 5,
+                    "num_channels": [64, 32, 16, 8],
+                    "kernel_size": 3,
+                    "dropout": 0.2
+                }
+            },
+            "Long Short-Term Memory": {
+                "class_name": "LSTM",
+                "params": {
+                    "input_dim": 5,
+                    "hidden_size": 64,
+                    "num_layers": 2,
+                    "dropout": 0.2
+                }
+            },
+            "Transformer": {
+                "class_name": "EncoderOnlyTransformer",
+                "params": {
+                    "input_dim": 5,
+                    "nhead": 2,
+                    "num_layers": 2,
+                    "d_model": 64,
+                    "dropout": 0.2
+                }
+            }
+        }
+    },
+    "NPlantUp":{
+        "target": "NPlantUp",
+        "features": ["DayAfterPlant", "NTotL1", "NTotL2", "Rain", "SolarRad", "AirTempC"],
+        "models": {
+            "Linear Regression": {
+                "class_name": "LinearRegression",
+                "params": {
+                    "input_dim": 6
+                }
+            },
+            "Multi-Layered Perceptron": {
+                "class_name": "MLP",
+                "params": {
+                    "input_dim": 6,
+                    "hidden_size": 128,
+                    "num_layers": 2,
+                    "dropout": 0.2
+                }
+            },
+            "1-D Convolutional Neural Network": {
+                "class_name": "CNN1D",
+                "params": {
+                    "input_dim": 6,
+                    "hidden_size": 64,
+                    "kernel_size": 3,
+                    "padding": 1,
+                    "dropout": 0.2
+                }
+            },
+            "Temporal Convolutional Network": {
+                "class_name": "TCN",
+                "params": {
+                    "input_dim": 6,
+                    "num_channels": [64, 32, 16, 8],
+                    "kernel_size": 3,
+                    "dropout": 0.2
+                }
+            },
+            "Long Short-Term Memory": {
+                "class_name": "LSTM",
+                "params": {
+                    "input_dim": 6,
+                    "hidden_size": 64,
+                    "num_layers": 2,
+                    "dropout": 0.2
+                }
+            },
+            "Transformer": {
+                "class_name": "EncoderOnlyTransformer",
+                "params": {
+                    "input_dim": 6,
+                    "nhead": 2,
+                    "num_layers": 2,
+                    "d_model": 64,
+                    "dropout": 0.2
+                }
+            }
+        }
+    }
+}

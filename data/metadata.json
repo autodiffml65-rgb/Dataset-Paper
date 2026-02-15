@@ -1,0 +1,142 @@
+{
+    "Date": {
+        "type": "Date",
+        "description": "Date of measurement"
+    },
+    "NApp": {
+        "type": "Float32",
+        "description": "Inorganic N applied (kg/ha)"
+    },
+    "NLeach": {
+        "type": "Float32",
+        "description": "N leached (kg [N]/ha)"
+    },
+    "NO3L1": {
+        "type": "Float32",
+        "description": "NO3, 0-5 cm (ug [N]/g [soil])"
+    },
+    "NO3L2": {
+        "type": "Float32",
+        "description": "NO3, 5-15 cm (ug [N]/g [soil])"
+    },
+    "NO3L3": {
+        "type": "Float32",
+        "description": "NO3, 15-30 cm (ug [N]/g [soil])"
+    },
+    "NH4L1": {
+        "type": "Float32",
+        "description": "NH4, 0-5 cm (ug [N]/g [soil])"
+    },
+    "NH4L2": {
+        "type": "Float32",
+        "description": "NH4, 5-15 cm (ug [N]/g [soil])"
+    },
+    "NH4L3": {
+        "type": "Float32",
+        "description": "NH4, 15-30 cm (ug [N]/g [soil])"
+    },
+    "NTotL1": {
+        "type": "Float32",
+        "description": "Total soil NO3+NH4 in layer 1 (kg [N]/ha)"
+    },
+    "NTotL2": {
+        "type": "Float32",
+        "description": "Total soil NO3+NH4 in layer 2 (kg [N]/ha)"
+    },
+    "NTotL3": {
+        "type": "Float32",
+        "description": "Total soil NO3+NH4 in layer 3 (kg [N]/ha)"
+    },
+    "Irrg": {
+        "type": "Float32",
+        "description": "Season irrigation (mm)"
+    },
+    "SWatL1": {
+        "type": "Float32",
+        "description": "Soil water, 0-5 cm (cm3/cm3)"
+    },
+    "SWatL2": {
+        "type": "Float32",
+        "description": "Soil water, 5-15 cm (cm3/cm3)"
+    },
+    "SWatL3": {
+        "type": "Float32",
+        "description": "Soil water, 15-30 cm (cm3/cm3)"
+    },
+    "PlantN": {
+        "type": "Float32",
+        "description": "Tuber+stem+leaf N (kg/ha)"
+    },
+    "TuberN": {
+        "type": "Float32",
+        "description": "Tuber N (kg/ha)"
+    },
+    "NPlantUp": {
+        "type": "Float32",
+        "description": "N uptake (kg [N]/ha)"
+    },
+    "LeafAreaIdx": {
+        "type": "Float32",
+        "description": "Leaf area index"
+    },
+    "TuberFW": {
+        "type": "Float32",
+        "description": "Tuber fresh weight (Mg [fm]/ha)"
+    },
+    "TuberDW": {
+        "type": "Float32",
+        "description": "Tuber dry weight (kg [dm]/ha)"
+    },
+    "TopsDW": {
+        "type": "Float32",
+        "description": "Tops weight (kg [dm]/ha)"
+    },
+    "GroStage": {
+        "type": "Float32",
+        "description": "Growth stage"
+    },
+    "WatStressPhs": {
+        "type": "Float32",
+        "description": "Water stress - photosynthesis (0-1)"
+    },
+    "WatStressGro": {
+        "type": "Float32",
+        "description": "Water stress - growth (0-1)"
+    },
+    "NStress": {
+        "type": "Float32",
+        "description": "Nitrogen stress factor (0-1)"
+    },
+    "IrrgDep": {
+        "type": "Int32",
+        "description": "Irrigation depth (cm)"
+    },
+    "IrrgThresh": {
+        "type": "Int32",
+        "description": "Irrigation threshold (%)"
+    },
+    "NFirstApp": {
+        "type": "Categorical/String",
+        "description": "First N application timing"
+    },
+    "Treatment": {
+        "type": "Categorical/String",
+        "description": "Treatment title as (preplanting/planting)-emergence-tuber N"
+    },
+    "DayAfterPlant": {
+        "type": "Int32",
+        "description": "Days after planting"
+    },
+    "Year": {
+        "type": "Int32",
+        "description": "Year (4 digits)"
+    },
+    "PlantingDay": {
+        "type": "Int32",
+        "description": "Day of planting"
+    },
+    "NStage": {
+        "type": "Int32",
+        "description": "Nitrogen application stage"
+    }
+}
