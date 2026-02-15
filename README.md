@@ -1,6 +1,7 @@
 # PotSim: A Large-Scale Simulated Dataset for Benchmarking AI Techniques on Potato Crop
 
 This repository contains the official implementation associated with this paper. 
+As this is a double-blind submision- we provide a subset of our large scale data in `data\data_subset` 
 
 ## Description:
 
@@ -10,7 +11,7 @@ PotSim is a large-scale simulated agricultural dataset specifically designed for
 
 ## Repository Items and Usage:
 
-The repository contains three main files `example.ipynb`, `plots.ipynb`, and `run.py`. To reproduce the train/test results presented in the paper, we provide `run.py`, which can be executed over a command line interface or terminal. To follow a step by step procedure and work with our dataset, we provide `example.ipynb`, a jupyter notebook template, which act as a starting point for further exploration. To make it easier to visualize and plot the results, we have provided `plots.ipynb`, a jupyter notebook template, which contains few example plots and can be edited according the requirements.
+The repository contains four  main files `example.ipynb`, `plots.ipynb`, `run.py` and `Forecasting_inference.ipynb` . To reproduce the results corresponding to regression type predictions-that are train/test results presented in the paper, we provide `run.py`, which can be executed over a command line interface or terminal. To follow a step by step procedure and work with our dataset, we provide `example.ipynb`, a jupyter notebook template, which act as a starting point for further exploration. To make it easier to visualize and plot the results, we have provided `plots.ipynb`, a jupyter notebook template, which contains few example plots and can be edited according the requirements.To run the forecasting models and to see the inference on foundational time series models like Chronos and MOIRAI, thn please go to `Forecasting_inference.ipynb` 
 
 ---
 
